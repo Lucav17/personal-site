@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../name/jquery-ui.min.css">
+
+
+
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-fixed-top navbar-inverse" id='mob-nav'style='z-index:99;background:transparent;position:fixed;border:none;margin-top:0;padding-top:20px;width:100vw;display:none;'>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button"  style='background:transparent;border:none;float:right;' class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<i class="fa fa-bars" style='color:#fff;font-size:30px;'aria-hidden="true"></i>
+      </button>
+      <a style='height:0;padding:0;padding-left:10px;' class="navbar-brand" href="#"><h3 id='logo' style='display:none;'>Gv</h3></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav" style='background-color:rgba(0,0,0,.6);'>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact-form/contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+  <div id='mob-height'style='position:fixed;background:#fff;border-right:3px solid #222;z-index:99;'>
+
+
+    <div id='clicked-menu' class='mid'style='background:#f5f5f5;display:inline-block;vertical-align:top;margin-top:40%;' >
+
+          <ul id='show-nav' style='background-color:#ddd;'>
+            <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact-form/contact.html">Contact</a></li>
+          </ul>
+
+        </div>
+
+        <div id='menu-hide'class='menu-hide' style='display:inline-block;'>
+            <div style='position:absolute;width:100%;left:0;top:0;'><h1 id='logo2' style='display:none;'>Gv</h1></div>
+
+            <h1 id='bar-text' style='display:none;margin-top:50vh;'>Portfolio</h1>
+
+            <div style='text-align:center;margin-top:30vh;'>
+              <button type='button' id='show-x'style='background-color:transparent;border:none !important;margin-left:px;width:100%;display:none;position:absolute;left:0;bottom:20px;' class='closed'>
+               <div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              </button>
+          </div>
+
+  </div>
+
+
+
+
+  </div>
+
+  <div class='port-back remove-marg' style='margin-left:10vw;'>
+
+       <div classs='row' style='margin-left:0px;width:80vw;'>
+        <div class='container'>
+          <div class='col-sm-3'>
+            <a href="https://teavery.com" target="_blank">
+              <div id='btn-1' class='port-item' style='background:url(images/tea-port.jpg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>Teavery</h3>
+                  <p style='font-style:italic'>Website</p>
+                </div>
+              </div>
+            </a>
+            <a href="rest/index.html" target="_blank">
+              <div id='btn-5' class='port-item' style='background:url(images/rest-port.jpg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>Restaraunt</h3>
+                  <p style='font-style:italic'>Custom Theme</p>
+                </div>
+              </div>
+            </a>
+            <a href="breatheinlife.net" target="_blank">
+              <div id='btn-9' class='port-item' style='background:url(images/yoga.jpeg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>Breathe In<br>Life</h3>
+                  <p style='font-style:italic'>Website</p>
+                </div>
+              </div>
+            </a>
+            <a href="https://goo.gl/t8lCXZ" target="_blank">
+              <div id='btn-13' class='port-item' style='background:url(images/box.jpg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>Heritage Box</h3>
+                  <p style='font-style:italic'>Website</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class='col-sm-3'>
+            <a href="starbucks/threejs1" target="_blank">
+              <div id='btn-2' class='port-item' style='background:url(images/coffee2.jpg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>Starbucks 1</h3>
+                  <p style='font-style:italic'>ThreeJs Visualization</p>
+                </div>
+              </div>
+            </a>
+            <a href="https://zmbc.shinyapps.io/final_project/" target="_blank">
+              <div  id='btn-6' class='port-item' style='background:url(images/fire.jpg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>Seattle Fires</h3>
+                  <p style='font-style:italic'>Data<br>Visualization</p>
+                </div>
+              </div>
+            </a>
+            <a href="https://goo.gl/hvv9RM" target="_blank">
+              <div id='btn-10' class='port-item' style='background:url(images/blog.jpg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>Heritage Box <br>Blog</h3>
+                  <p style='font-style:italic'>Blog</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <div class='col-sm-3'>
+            <a href="http://www.teatourist.co.uk" target="_blank">
+              <div id='btn-3' class='port-item' style='background:url(images/tourist.jpg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>Tea Tourist</h3>
+                  <p style='font-style:italic'>Ecommerce Website</p>
+                </div>
+              </div>
+            </a>
+            <a href="https://johnorourkeforjudge.com" target="_blank">
+              <div  id='btn-7' class='port-item' style='background:url(images/court.jpg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>Campaign</h3>
+                  <p style='font-style:italic'>Website</p>
+                </div>
+              </div>
+            </a>
+            <a href="http://www.samplejuice.com/" target="_blank">
+              <div id='btn-11' class='port-item' style='background:url(images/juice.jpeg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>Sample Juice</h3>
+                  <p style='font-style:italic'>Age Verification<br>Screen</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class='col-sm-3'>
+            <a href="starbucks/threejs2" target="_blank">
+              <div id='btn-4'class='port-item' style='background:url(images/coffee.jpg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>Starbucks 2</h3>
+                  <p style='font-style:italic'>ThreeJs Visualization</p>
+                </div>
+              </div>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=edu.uw.info498bgroup.motiongame&hl=en" target="_blank">
+              <div id='btn-8'class='port-item' style='background:url(images/balls.jpg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>Ball Fall</h3>
+                  <p style='font-style:italic'>Android App</p>
+                </div>
+              </div>
+            </a>
+            <a href="hdim.uw.edu" target="_blank">
+              <div id='btn-12' class='port-item' style='background:url(images/books.jpg) no-repeat center center;background-size:cover;'>
+                <div class='show-port'>
+                  <h3>HDIM</h3>
+                  <p style='font-style:italic'>UW<br>Research</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+       </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- Navigation -->
+
+    <!-- /.container -->
+    <script src="https://use.fontawesome.com/3e65153cd0.js"></script>
+
+
+
+     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+    <!-- jQuery Version 1.11.1 -->
+
+<script type="text/javascript">
+var number = 0;
+function showThumbs() {
+          if (number <= 12) {
+            number++;
+            var idName = '#btn-';
+            var adjustName = idName + number;
+            $(adjustName).css({'opacity':'1','margin-top':'0px'});
+            return number;
+          }
+        }
+
+
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var number = 0;
+        if(number <= 12) {
+          number = setInterval("showThumbs()", 500);
+        } else {
+          clearInterval(number);
+        }
+
+
+
+
+        $(window).resize(function() {
+          var cw = $('.port-item').width();
+        $('.port-item').css({'height':cw+'px'});
+        $('.show-port').css({'width':cw+'px'});
+        $('.show-port').css({'height':cw+'px'});
+
+        });
+
+        var cw = $('.port-item').width();
+        $('.port-item').css({'height':cw+'px'});
+        $('.show-port').css({'width':cw+'px'});
+        $('.show-port').css({'height':cw+'px'});
+
+
+
+        $('#show-x').delay(1500).slideDown('xslow');
+        $('#logo').delay(1500).slideDown('xslow');
+        $('#logo2').delay(1500).slideDown('xslow');
+        $('#bar-text').delay(1500).fadeIn('slow');
+
+        $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+          $(this).toggleClass('open');
+        });
+
+        $('#show-x').click(function() {
+
+          if($('#show-x').hasClass('closed')) {
+            $('#show-x').removeClass('closed').addClass('opened');
+
+            document.getElementById("clicked-menu").style.marginLeft = "0px";
+            document.getElementById("show-nav").style.marginLeft = "0px";
+            document.getElementById("menu-hide").style.marginLeft = "0px";
+
+          } else {
+            $('#show-x').removeClass('opened').addClass('closed');
+            document.getElementById("clicked-menu").style.marginLeft = "-250px";
+            document.getElementById("show-nav").style.marginLeft = "-250px";
+            document.getElementById("menu-hide").style.marginLeft = "0px";
+          };
+
+        });
+      });
+    </script>
+
+
+
+
+</body>
+
+</html>

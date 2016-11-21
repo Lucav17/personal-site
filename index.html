@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Home</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="name/jquery-ui.min.css">
+
+
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-fixed-top navbar-inverse" id='mob-nav'style='z-index:99;background:transparent;position:fixed;border:none;margin-top:0;padding-top:20px;width:100vw;display:none;'>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button"  style='background:transparent;border:none;float:right;' class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<i class="fa fa-bars" style='color:#fff;font-size:30px;'aria-hidden="true"></i>
+      </button>
+      <a style='height:0;padding:0;padding-left:10px;' class="navbar-brand" href="#"><h3 id='logo' style='display:none;'>Gv</h3></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav"  style='background-color:rgba(0,0,0,.6);'>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="images/resumeGianluca.pdf" download="proposed_file_name">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact-form/contact.html">Contact</a></li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+  <div id='mob-height'style='position:fixed;background:#fff;border-right:3px solid #222;z-index:99;'>
+
+
+    <div id='clicked-menu' class='mid'style='background:#f5f5f5;display:inline-block;vertical-align:top;margin-top:50%;' >
+
+          <ul id='show-nav' style='background-color:#ddd;'>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="resume.html">Resume</a></li>
+
+
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact-form/contact.html">Contact</a></li>
+
+          </ul>
+
+        </div>
+
+        <div id='menu-hide'class='menu-hide' style='display:inline-block;'>
+            <div style='position:absolute;width:100%;left:0;top:0;'><h1 id='logo2' style='display:none;'>Gv</h1></div>
+
+            <h1 id='bar-text' style='display:none;margin-top:50vh;'>Welcome!</h1>
+
+            <div style='text-align:center;margin-top:30vh;'>
+              <button type='button' id='show-x'style='background-color:transparent;border:none !important;margin-left:px;width:100%;display:none;position:absolute;left:0;bottom:20px;' class='closed'>
+               <div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              </button>
+          </div>
+
+  </div>
+
+
+
+
+  </div>
+  <div class='first-section-home' id='main-home'>
+    <div class='shadow-container middle'>
+
+      <svg width="650" height="90" style='margin-top:20%' id='mob-dis'>
+        <text x="100" y="80" fill="none" stroke="white" stroke-width="1" font-family="gotham" font-size="60">Gianluca Vaccarini</text>
+      </svg>
+      <br>
+      <svg width="650" height="100" id='mob-dis'>
+        <text x="100" y="15" fill="none" stroke="white" stroke-width="1" font-family="gotham" font-size="15" id='delay-svg'>Professional Web Developer and Student at the University of Washington</text>
+      </svg>
+
+      <svg width="300" height="30"  id='mob-show' style='margin-top:35vh;'>
+        <text x="20" y="25" fill="none" stroke="white" stroke-width="1" font-family="gotham" font-size="30">Gianluca Vaccarini</text>
+      </svg>
+      <svg width="310" height="100" id='mob-show'>
+        <text x="5" y="15" fill="none" stroke="white" stroke-width="1" font-family="gotham" font-size="8.5" id='delay-svg'>Professional Web Developer and Student at the University of Washington</text>
+      </svg>
+
+
+    </div>
+  </div>
+
+  <div class='second-section-home middle remove-marg'>
+
+    <h1 id='font-20'>My services help build brands and grow businesses through digital storytelling, unique engaging content, and rich user experiences.</h1>
+  </div>
+
+  <div class='row remove-marg' style='margin-left:10vw;' >
+    <div class='container' id='no-width'style='margin-left:-15px;width:100vw;padding-right:0;margin-right:0'>
+      <a href="rest/index.html" target="_blank" style='text-decoration:none;'>
+      <div class='col-sm-6 left-site' style='padding:0;'>
+        <div id='rest' class='bottom'>
+          <div id='opac-1'></div>
+          <p class='white' style='text-align:left;'>Custom Built Theme - Restaraunts</p>
+          <h1 class='white' style='margin-top:0'>Theme Built For<br>New Modern Restaraunts</h1>
+        </div>
+      </div>
+      </a>
+      <div class='col-sm-6 right-sites' style='padding:0;'>
+        <a href="https://www.teavery.com" target='_blank' style='text-decoration:none;'>
+        <div style='height:300px;background: url(images/tea.jpg) no-repeat center center;background-size: cover;'>
+          <div id='top-photo'>
+            <div id='opac-2'></div>
+            <div id='trigger-footer'></div>
+            <p style='text-align:left;' class='white'>Subscription Service - Teavery</p>
+            <h1 class='white' style='margin-top:0'>Organic Subscription Tea<br>Ecommerce Website</h1>
+          </div>
+        </div>
+        </a>
+        <a href="starbucks/threejs" target='_blank' style='text-decoration:none;'>
+        <div id='trigger-footer2'style='background:url(images/coffee.jpg) no-repeat center center;background-size: cover;height:300px;'>
+          <div id='bottom-photo'>
+            <div id='opac-3'></div>
+              <p class='white' style='text-align:left;'>3D Visualization - Starbucks</p>
+              <h1 class='white' style='margin-top:0'>Interactive 3D Visualization</h1>
+          </div>
+        </div>
+        </a>
+    </div>
+  </div>
+
+  <div class='footer'>
+      <h1 id='slide-top'>Get In Touch</h1>
+      <div class='row'>
+        <div class='container remove-marg'>
+          <div class='col-sm-4 col-sm-offset-2'>
+            <a href="mailto:gianlucavaccarini@gmail.com" target="_blank"><button type='button' id='slide-right'class='footer-button'>EMAIL</button></a>
+          </div>
+          <div class='col-sm-4'>
+            <a href="https://www.linkedin.com/in/gianluca-vaccarini-68292711b" target="_blank"><button type='button' id='slide-left'class='footer-button'>LINKEDIN</button></a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+    <!-- Navigation -->
+
+    <!-- /.container -->
+    <script src="https://use.fontawesome.com/3e65153cd0.js"></script>
+
+
+
+     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+    <!-- jQuery Version 1.11.1 -->
+
+
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+        var topOfOthDiv = $("#trigger-footer").offset().top + $("#trigger-footer").outerHeight();
+        $(window).scroll(function() {
+          if($(window).scrollTop() + $(window).height() > topOfOthDiv) { //scrolled past the other div?
+              document.getElementById('rest').style.opacity = '1'; //reached the desired point -- show div
+              document.getElementById('top-photo').style.opacity = '1';
+              document.getElementById('bottom-photo').style.opacity = '1';
+          }
+        });
+
+        var topOfOthThings = $("#trigger-footer2").offset().top +  $("#trigger-footer2").outerHeight();
+        $(window).scroll(function() {
+          if(($(window).scrollTop() + $(window).height()) > topOfOthThings) { //scrolled past the other div?
+              $('#slide-left').css({'margin-left':'0','opacity':'1'});
+              $('#slide-top').css({'margin-top':'0','opacity':'1'});
+              $('#slide-right').css({'margin-right':'0','opacity':'1'});
+          }
+        });
+
+
+        $('#show-x').delay(1500).slideDown('xslow');
+        $('#logo').delay(1500).slideDown('xslow');
+        $('#logo2').delay(1500).slideDown('xslow');
+        $('#bar-text').delay(1500).fadeIn('slow');
+
+        $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+          $(this).toggleClass('open');
+        });
+
+        $('#show-x,#mob-btn').click(function() {
+
+          if($('#show-x').hasClass('closed')) {
+            $('#show-x').removeClass('closed').addClass('opened');
+
+            document.getElementById("clicked-menu").style.marginLeft = "0px";
+            document.getElementById("show-nav").style.marginLeft = "0px";
+            document.getElementById("menu-hide").style.marginLeft = "0px";
+
+          } else {
+            $('#show-x').removeClass('opened').addClass('closed');
+            document.getElementById("clicked-menu").style.marginLeft = "-250px";
+            document.getElementById("show-nav").style.marginLeft = "-250px";
+            document.getElementById("menu-hide").style.marginLeft = "0px";
+          };
+
+        });
+      });
+    </script>
+
+
+
+</body>
+
+</html>

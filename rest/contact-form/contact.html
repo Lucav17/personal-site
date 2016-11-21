@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Contact</title>
+
+    <!-- Bootstrap Core CSS -->
+    
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../css/style.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+   
+   
+
+  
+    </header>
+
+
+    <div class='shadow-container'>
+        <nav class="navbar navbar-inverse" style='border:none;background-color:transparent;'>
+          <div class="container-fluid" style='padding-left:0;'>
+            <div class="navbar-header" style='background-color:#222;width:20vw;padding:30px 20px 15px;'>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+              </button >
+                <a class="navbar-brand" href="../index.html" id='logo'>Kaitind</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right" style='margin-top:30px;'>
+                <li><a href="../index.html">Home</a></li>
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="../lunch.html">Lunch</a></li>
+                      <li><a href="../dinner.html">Dinner</a></li>
+                      <li><a href="../desert.html">Desert</a></li> 
+                    </ul>
+                  </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="../reservations.html">Reservations</a></li>
+                      <li><a href="../catering.html">Catering</a></li> 
+                    </ul>
+                  </li>
+                <li><a href="../about.html">About Us</a></li>
+                <li><a href="../photos.html">Photos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td class='top' id='mob-dis'>
+                        <div class='home'>
+                            <div class='story'>
+                                <h3>Welcome!</h3>
+                                <p>Quick story about the restaraunt and how it came into play, the theme, and the quality of the food. Quick story about the restaraunt and how it came into play, the theme, and the quality of the food. Quick story about the restaraunt and how it came into play, the theme, and the quality of the food. Quick story about the restaraunt and how it came into play, the theme, and the quality of the food. </p>
+
+                                <div class='open-hours'>
+                                    <h4>Opening Hours</h4>
+                                    <p>We're open from 7 AM to 7 PM every day</p>
+                                    <hr style='border-color:#fff;width:25%;'>
+                                    <h4>Contact Us</h4>
+                                    <p>(253) 314 - 6686</p>
+                                    <p>Gianlucavaccarini@gmail.com</p>
+                                </div>
+                                <div class='social-content'>
+                                    <ul>
+                                        <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true" style='color:#fff;'></i></a></li>
+                                        <li><a href=""><i class="fa fa-instagram" aria-hidden="true" style='color:#fff;'></i></a></li>
+                                        <li><a href=""><i class="fa fa-twitter" aria-hidden="true" style='color:#fff;'></i></a></li>
+                                    </ul>
+                                    <h5 style='margin-bottom:0;margin-top:30px;'>Created By</h5>
+                                    <a href='https://gianlucavaccarini.com' target='_blank' style='font-size:12px;'>Gianluca Vaccarini</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class='top left'>
+                        <div class="contact_form" style='padding-bottom:100px;'>
+                            <h1 style='font-family:"fancyName";color:#fff;text-align:center;margin:0;padding-bottom:40px;font-size:56px;'>Contact Form</h1>
+                            <div class ="container" style='width:auto;'>
+                                <div class = "row">
+                                    <div class = "col-md-0">
+                                    </div>
+                                    <div class = "col-md-12">
+                                            <form id="contact-form" method="post" action="contact.php" role="form" style = "padding-bottom:100px;">
+
+                                                <div class="messages"></div>
+
+                                                <div class="controls">
+
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="form_name" style="float:left;color:#fff;">First Name</label>
+                                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name" required="required" data-error="First name is required." style='padding:30px;border-radius:0;border-color:#000;' style='padding:30px;border-radius:0;border-color:#000;'>
+                                                                <div class="help-block with-errors"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="form_lastname" style="float:left;color:#fff;">Last Name</label>
+                                                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name" required="required" data-error="Last name is required." style='padding:30px;border-radius:0;border-color:#000;' style='padding:30px;border-radius:0;border-color:#000;'>
+                                                                <div class="help-block with-errors"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="form_email" style="float:left;color:#fff;">Email</label>
+                                                                
+                                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required." style='padding:30px;border-radius:0;border-color:#000;'>
+                                                                <div class="help-block with-errors"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="form_phone" style="float:left;color:#fff;">Phone Number</label>
+                                                                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number" style='padding:30px;border-radius:0;border-color:#000;'>
+                                                                <div class="help-block with-errors"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="form_message" style="float:left;color:#fff;">Message</label>
+                                                                <textarea id="form_message" name="message" class="form-control" placeholder="Message..." rows="4" required="required" data-error="Please enter a valid message." style='padding:30px;border-radius:0;border-color:#000;'></textarea >
+                                                                <div class="help-block with-errors" ></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12" style='text-align:center;'>
+                                                            <input type="submit" class="btn btn-success btn-send" value="Send message" style='padding:30px;'>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                    </div>
+                                                </div>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    
+
+ 
+
+   
+<script src="https://use.fontawesome.com/3e65153cd0.js"></script>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="validator.js"></script>
+        <script src="contact.js"></script>
+
+    <script src="js/jquery.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    
+    <script src="js/grayscale.js"></script>
+
+
+
+
+</body>
+
+</html>

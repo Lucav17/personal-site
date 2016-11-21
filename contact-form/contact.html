@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Contact</title>
+
+    <!-- Bootstrap Core CSS -->
+    
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../css/style.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+   
+   
+
+  
+    </header>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" id='mob-nav'style='z-index:99;background:transparent;position:fixed;border:none;margin-top:0;padding-top:20px;width:100vw;display:none;'>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button"  style='background:transparent;border:none;float:right;' class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<i class="fa fa-bars" style='color:#fff;font-size:30px;'aria-hidden="true"></i>
+      </button>
+        <a style='height:0;padding:0;padding-left:10px;' class="navbar-brand" href="#"><h3 id='logo' style='display:none;'>Gv</h3></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav" style='background-color:rgba(0,0,0,.6);'>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../resume.html">Resume</a></li>
+        <li><a href="../portfolio.html">Portfolio</a></li> 
+        <li><a href="contact.html">Contact</a></li> 
+        <li><a target="_blank" href="../starbucks/threejs.html">Starbucks</a></li>  
+      </ul>
+    </div>
+    
+  </div>
+</nav>
+  
+  <div id='mob-height'style='position:fixed;background:#fff;border-right:3px solid #222;z-index:99;'>
+
+
+    <div id='clicked-menu' class='mid'style='background:#f5f5f5;display:inline-block;margin-top:50%;vertical-align:top;'>
+
+          <ul id='show-nav' style='background-color:#ddd;'>
+            <li><a href="../index.html">Home</a></li>
+        <li><a href="../resume.html">Resume</a></li>
+        <li><a href="../portfolio.html">Portfolio</a></li> 
+        <li><a href="contact.html">Contact</a></li>
+        <li><a target="_blank" href="../starbucks/threejs.html">Starbucks</a></li>   
+          </ul>
+
+        </div>
+
+        <div id='menu-hide'class='menu-hide' style='display:inline-block;'>
+            <div style='position:absolute;width:100%;left:0;top:0;'><h1 id='logo2' style='display:none;'>Gv</h1></div>
+
+            <h1 id='bar-text' style='display:none;margin-top:50vh;'>Welcome!</h1>
+
+            <div style='text-align:center;'>
+              <button type='button' id='show-x'style='background-color:transparent;border:none !important;margin-left:px;width:100%;display:none;position:absolute;left:0;bottom:20px;' class='closed'>
+               <div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              </button>
+          </div>
+
+  </div>
+
+
+  
+
+  </div>
+  <div class='port-back remove-marg' style='margin-left:10vw;width:auto;padding-left:0;'>
+       <div class="contact_form" style='padding-bottom:100px;padding:0 10vw;'>
+                            <h1 style='font-family:"gotham";font-weight:bold;color:#fff;text-align:center;margin:0;margin-top:50px;padding-bottom:40px;font-size:56px;'>Contact Form</h1>
+                            <div class ="container" style='width:auto;'>
+                                <div class = "row">
+                                    <div class = "col-md-0">
+                                    </div>
+                                    <div class = "col-md-12">
+                                            <form id="contact-form" method="post" action="contact.php" role="form" style = "padding-bottom:100px;">
+
+                                                <div class="messages"></div>
+
+                                                <div class="controls">
+
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="form_name" style="float:left;color:#fff;">First Name</label>
+                                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name" required="required" data-error="First name is required." style='padding:30px;border-radius:0;border-color:#000;background-color:rgba(255,255,255,.8);' style='padding:30px;border-radius:0;border-color:#000;'>
+                                                                <div class="help-block with-errors"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="form_lastname" style="float:left;color:#fff;">Last Name</label>
+                                                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name" required="required" data-error="Last name is required." style='padding:30px;border-radius:0;border-color:#000;' style='padding:30px;border-radius:0;border-color:#000;background-color:rgba(255,255,255,.8);'>
+                                                                <div class="help-block with-errors"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="form_email" style="float:left;color:#fff;">Email</label>
+                                                                
+                                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required." style='padding:30px;border-radius:0;border-color:#000;background-color:rgba(255,255,255,.8);'>
+                                                                <div class="help-block with-errors"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="form_phone" style="float:left;color:#fff;">Phone Number</label>
+                                                                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number" style='background-color:rgba(255,255,255,.8);padding:30px;border-radius:0;border-color:#000;'>
+                                                                <div class="help-block with-errors"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="form_message" style="float:left;color:#fff;">Message</label>
+                                                                <textarea id="form_message" name="message" class="form-control" placeholder="Message..." rows="4" required="required" data-error="Please enter a valid message." style='padding:30px;border-radius:0;border-color:#000;background-color:rgba(255,255,255,.8);'></textarea >
+                                                                <div class="help-block with-errors" ></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12" style='text-align:center;'>
+                                                            <input type="submit" class="btn btn-success btn-send" value="Send message" style='padding:30px;'>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                    </div>
+                                                </div>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>     
+
+    </div>
+  
+
+
+    
+
+ 
+
+   
+<script src="https://use.fontawesome.com/3e65153cd0.js"></script>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="validator.js"></script>
+        <script src="contact.js"></script>
+
+    <script src="js/jquery.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+     <script type="text/javascript">
+      $(document).ready(function(){
+
+       
+
+        $('#show-x').delay(1500).slideDown('xslow');
+        $('#logo').delay(1500).slideDown('xslow');
+        $('#bar-text').delay(1500).fadeIn('slow');
+        $('#logo2').delay(1500).slideDown('xslow');
+
+        $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+          $(this).toggleClass('open');
+        });
+
+        $('#show-x').click(function() {
+
+          if($('#show-x').hasClass('closed')) {
+            $('#show-x').removeClass('closed').addClass('opened');
+           
+            document.getElementById("clicked-menu").style.marginLeft = "0px";
+            document.getElementById("show-nav").style.marginLeft = "0px";
+            document.getElementById("menu-hide").style.marginLeft = "0px";
+
+          } else {
+            $('#show-x').removeClass('opened').addClass('closed');
+            document.getElementById("clicked-menu").style.marginLeft = "-250px";
+            document.getElementById("show-nav").style.marginLeft = "-250px";
+            document.getElementById("menu-hide").style.marginLeft = "0px";
+          };
+
+        });
+      });
+    </script>
+
+
+
+
+</body>
+
+</html>
