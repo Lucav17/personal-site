@@ -552,6 +552,10 @@ text {
     display: none;
   }
 
+  .second-section-home {
+    padding: 20px !important;
+  }
+
   #mob-show {
     display: inherit;
   }
@@ -603,6 +607,11 @@ text {
 
   #no-width {
     width: auto !important;
+  }
+
+  .second-section-home h1 {
+    font-size: 23px !important;
+    line-height: 1.4em !important;
   }
 
 }
